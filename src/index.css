@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-cont{
+    position: relative;
+    display: inline-block;
+}
+.img{
+    display: block;
+}
+.txt{
+    position: absolute;
+    text-shadow: 0 0 20px #000000;
+    top: 300px; 
+    left: 800px; 
+    transform: translate(-50%, -50%);  
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+}
+.nv li{
+    margin-left: 27px;
+    font-size: large;
+    font-weight: 500;
+}
+.column{
+    display: flex;
+    margin:auto;
+
+}
+.column ul li:hover{
+    box-shadow: 0px 2px rgb(246, 100, 100);
+}
+.main-pizza{
+    display: flex;
+    padding: 30px 110px;
+    gap: 50px;
+    /* background-color: red; */
+}
+.main-block{
+    display: flex;
+    flex-direction: column;
+
+}
+.btn{
+    min-width:125px ;
+    font-size: 17px;
+    height: 33px;
+    background-color: red;
+    color: black;
+    border: 1px solid transparent;
+    border-radius:7px ;
+    transition: 0.2s background-color ease-in;
+
+}
+.btn:hover{
+        background-color: white;
+        color: red;
+        border: 1px solid red;
+        transition: 0.2s background-color ease-in;
+
+}
